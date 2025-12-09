@@ -11,10 +11,10 @@ cp -r day_template day_n
 
 Add the *example* and your *puzzle input* in files `day_n/data/example.txt` and `day_n/data/data.txt`
 
-Implement the solution in `day_n/rust/src/part_*.rs`
+Implement the solution in `day_n/src/part_*.rs`
 
 ## Run
-In `day_n/rust/`:
+In `day_n/`:
 ```
 cargo run
 ```
