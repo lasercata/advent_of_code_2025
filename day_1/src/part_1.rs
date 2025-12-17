@@ -12,7 +12,7 @@ fn process_line(current_value: i32, line: &str) -> i32 {
     }
 }
 
-pub fn sol_1(filename: &str) -> u32 {
+pub fn sol(filename: &str) -> u32 {
     let file_content = fs::read_to_string(filename).expect("File error");
 
     let mut value: i32 = 50;

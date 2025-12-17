@@ -53,7 +53,7 @@ fn process_file(filename: &str) -> Vec<IdRange> {
     ret
 }
 
-pub fn sol_1(filename: &str) -> u128 {
+pub fn sol(filename: &str) -> u128 {
     let id_ranges = process_file(filename);
     // println!("IdRange: {id_ranges:#?}");
     let mut sum_invalid: u128 = 0;

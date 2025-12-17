@@ -118,7 +118,7 @@ impl PaperRollMap {
     }
 }
 
-pub fn sol_2(filename: &str) -> u32 {
+pub fn sol(filename: &str) -> u32 {
     let mut paper_roll_map = PaperRollMap::new(filename);
 
     let mut nb_total_accessible: u32 = 0;

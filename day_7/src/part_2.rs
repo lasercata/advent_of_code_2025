@@ -77,7 +77,7 @@ impl TachyonManifold {
     }
 }
 
-pub fn sol_2(filename: &str) -> u64 {
+pub fn sol(filename: &str) -> u64 {
     let file = File::open(filename).expect("File error occured");
     let reader = BufReader::new(file);
 

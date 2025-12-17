@@ -269,7 +269,7 @@ fn create_links(matrix_graph: &MatrixGraph) -> u128 {
     (p1.x as u128) * (p2.x as u128)
 }
 
-pub fn sol_2(filename: &str) -> u128 {
+pub fn sol(filename: &str) -> u128 {
     let matrix_graph = create_matrix_graph(filename);
     create_links(&matrix_graph)
 
@@ -282,5 +282,4 @@ pub fn sol_2(filename: &str) -> u128 {
     // union_find._sort();
     // println!("sets: {:#?}", union_find.sets);
 }
-
 

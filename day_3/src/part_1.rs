@@ -66,7 +66,7 @@ fn process_line_to_vec(line: &str) -> Vec<u8> {
     ret
 }
 
-pub fn sol_1(filename: &str) -> u32 {
+pub fn sol(filename: &str) -> u32 {
     // let file_content = fs::read_to_string(filename).expect("File error");
 
     let file = File::open(filename).expect("File error occured");

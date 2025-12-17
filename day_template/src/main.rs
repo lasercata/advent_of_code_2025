@@ -1,15 +1,15 @@
 mod part_1;
 mod part_2;
 
-use crate::part_1::sol_1;
-use crate::part_2::sol_2;
+// use crate::part_1::sol_1;
+// use crate::part_2::sol_2;
 
 fn main() {
-    println!("On test data:");
-    println!("    part 1: {}", sol_1("data/example.txt"));
-    println!("    part 2: {}", sol_2("data/example.txt"));
+    println!("Part 1:");
+    println!("    test data:     {}", part_1::sol("data/example.txt"));
+    println!("    instance data: {}", part_1::sol("data/data.txt"));
 
-    println!("\nOn instance data:");
-    println!("    part 1: {}", sol_1("data/data.txt"));
-    println!("    part 2: {}", sol_2("data/data.txt"));
+    println!("\nPart 2:");
+    println!("    test data:     {}", part_2::sol("data/example.txt"));
+    println!("    instance data: {}", part_2::sol("data/data.txt"));
 }

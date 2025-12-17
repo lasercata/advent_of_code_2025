@@ -80,7 +80,7 @@ impl CephalopodWorksheet {
     }
 }
 
-pub fn sol_1(filename: &str) -> u128 {
+pub fn sol(filename: &str) -> u128 {
     let file = File::open(filename).unwrap();
     let rev_lines = RevLines::new(file); // Reading lines in reverse order (as + and * are
                                          // commutative, this is to get the operations first)

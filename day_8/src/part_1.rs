@@ -1,4 +1,3 @@
-// use std::collections::HashMap;
 use std::fs::File;
 use std::io::{BufReader, BufRead};
 
@@ -249,7 +248,7 @@ fn create_links(matrix_graph: &MatrixGraph, n: usize) -> UnionFind<usize> {
     union_find
 }
 
-pub fn sol_1(filename: &str, nb_pairs: usize) -> u32 {
+pub fn sol(filename: &str, nb_pairs: usize) -> u32 {
     let matrix_graph = create_matrix_graph(filename);
     let mut union_find = create_links(&matrix_graph, nb_pairs);
 

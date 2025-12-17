@@ -128,7 +128,7 @@ impl CephalopodWorksheet {
     }
 }
 
-pub fn sol_2(filename: &str) -> u128 {
+pub fn sol(filename: &str) -> u128 {
     // First transpose the file
     let file_content = fs::read_to_string(filename).unwrap();
 

@@ -47,7 +47,7 @@ impl Ranges {
     }
 }
 
-pub fn sol_1(filename: &str) -> u128 {
+pub fn sol(filename: &str) -> u128 {
     // let file_content = fs::read_to_string(filename).expect("File error");
 
     let file = File::open(filename).expect("File error occured");
